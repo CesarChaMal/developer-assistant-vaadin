@@ -15,7 +15,7 @@ public class RagWorker {
     private final Resource pdfResource;
 
     public RagWorker(VectorStore vectorStore,
-                     @Value("classpath:/Stack Overflow Developer Survey 2023.pdf") Resource pdfResource) {
+                     @Value("classpath:/so_survey_2023.pdf") Resource pdfResource) {
         this.vectorStore = vectorStore;
         this.pdfResource = pdfResource;
     }
